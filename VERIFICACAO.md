@@ -6,7 +6,7 @@ O site apresenta a Miss Brand e suas três unidades. O visitante navega pelas se
 
 - Configuração do pnpm 11 em `pnpm-workspace.yaml`, com lockfile compatível e scripts de compilação das dependências nativas explicitamente definidos.
 - Comandos de lint e verificação de tipos, com configuração do ESLint.
-- Seções no fluxo do documento: a sobreposição fixa podia levar âncoras à seção errada.
+- Sobreposição das seções restaurada: o painel fica fixo enquanto o próximo sobe. Marcadores no fluxo do documento mantêm os destinos das âncoras corretos, inclusive ao voltar às seções anteriores.
 - Conteúdo visível sem JavaScript, com animações de entrada aplicadas apenas após a inicialização.
 - Imagens otimizadas pelo Next.js e carregamento adiado das fotos fora da primeira tela.
 - Vídeo pausado quando o visitante prefere movimento reduzido.

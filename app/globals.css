@@ -45,8 +45,8 @@
 
 html.lenis.lenis-smooth{scroll-behavior:auto!important}
 
-/* Keep sections in document flow so anchors always reach their content. */
-main > section[id]{position:relative;min-height:100svh}
+/* Pin each panel while the next section scrolls over it. */
+main > section[id]{position:sticky;top:var(--stack-top,0px);z-index:var(--stack-order,1);min-height:100svh}
 main > section:not(#inicio){border-radius:24px 24px 0 0}
 #inspiracoes{background:#ffffff}
 #essencia{background:#e5e5e5}

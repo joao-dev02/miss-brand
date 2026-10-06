@@ -84,6 +84,7 @@ export default function Home() {
       </a>
       <main id="conteudo" tabIndex={-1}>
         <AnimatedNavFramer />
+        <div data-section-anchor="inicio" aria-hidden="true" />
         <section id="inicio" className="hero hero-with-video">
           <video
             ref={videoRef}
@@ -127,6 +128,7 @@ export default function Home() {
             <div className="image-shade" />
           </div>
         </section>
+        <div data-section-anchor="unidades" aria-hidden="true" />
         <section
           id="unidades"
           className="branches section"
@@ -233,6 +235,7 @@ export default function Home() {
             ))}
           </div>
         </section>
+        <div data-section-anchor="essencia" aria-hidden="true" />
         <section id="essencia" className="essence">
           <div className="essence-copy reveal">
             <span className="eyebrow">02 / MISS BRAND</span>
@@ -257,6 +260,7 @@ export default function Home() {
             </a>
           </div>
         </section>
+        <div data-section-anchor="inspiracoes" aria-hidden="true" />
         <section id="inspiracoes" className="inspirations section">
           <div className="section-heading reveal">
             <div>
@@ -308,6 +312,7 @@ export default function Home() {
             sua preferência.
           </p>
         </section>
+        <div data-section-anchor="visite" aria-hidden="true" />
         <section id="visite" className="visit section">
           <div className="visit-copy reveal">
             <span className="eyebrow">04 / VEM CONHECER</span>
