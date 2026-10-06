@@ -22,6 +22,6 @@ O site apresenta a Miss Brand e suas três unidades. O visitante navega pelas se
 
 Capturas e ferramentas temporárias de revisão ficam fora do Git.
 
-## Dado pendente de confirmação
+## Contato confirmado
 
-O telefone da matriz São Joaquim, `558698402822`, foi preservado conforme o arquivo original. Tem um dígito a menos que os outros celulares cadastrados e precisa ser confirmado pelo responsável. Os testes conferem a formação dos links; não comprovam a titularidade nem a disponibilidade dos números no WhatsApp.
+O responsável confirmou o telefone da matriz São Joaquim como `(86) 99840-2822`. Os links da unidade e de solicitação de entrega usam `5586998402822`, incluindo o código do Brasil. Os testes conferem a formação dos links; não comprovam a disponibilidade do número no WhatsApp.

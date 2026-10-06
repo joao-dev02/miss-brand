@@ -148,7 +148,7 @@ export default function Home() {
               {
                 label: "MATRIZ",
                 name: "São Joaquim",
-                phone: "558698402822",
+                phone: "5586998402822",
                 address: "Rua Rui Barbosa, 4260, São Joaquim, Teresina, PI",
               },
               {
@@ -323,7 +323,7 @@ export default function Home() {
             </p>
             <FlowButton
               className="map-flow"
-              href="https://api.whatsapp.com/send/?phone=558698402822&text&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5586998402822&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               text="Solicitar entrega pelo WhatsApp"
